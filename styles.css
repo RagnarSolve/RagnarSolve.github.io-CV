@@ -1,0 +1,76 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #10039a;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    box-sizing: border-box;
+}
+
+.bio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2em;
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.bio img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    box-sizing: border-box;
+}
+
+.bio-content {
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+.bio p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.6;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .bio {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.merits {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.education,
+.work-experience {
+    flex: 1 1 300px;
+    margin: 0.5em;
+    padding: 1em;
+    background-color: #890000;
+    box-sizing: border-box;
+}
+
+.contact {
+    text-align: center;
+    padding: 1em;
+    background-color: #1b00b1;
+    color: white;
+    box-sizing: border-box;
+}
